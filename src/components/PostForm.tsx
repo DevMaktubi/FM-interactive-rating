@@ -1,6 +1,6 @@
 export function PostForm() {
   return (
-    <div className="flex flex-col md:p-8 py-8 px-6 items-center md:max-w-[412px] max-w-[327px] h-[360px] md:h-[416px] bg-gradient-to-b from-gradient-1-from to-gradient-1-to rounded-2xl">
+    <div className="flex flex-col md:p-8 py-8 px-6 items-center md:max-w-[412px] max-w-[327px] h-[360px] md:h-[416px] bg-gradient-to-b from-gradient-1-from to-gradient-1-to rounded-3xl">
       <div className="md:py-3 w-full flex justify-center items-center mb-5">
         <img src="/assets/illustration-thank-you.svg" alt="Thank you image" />
       </div>
