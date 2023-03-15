@@ -2,7 +2,7 @@ import CN from "classnames";
 import { useState } from "react";
 
 export function Form({ onSubmit }: { onSubmit: () => void }) {
-  const [selectedButton, setSelectedButton] = useState(1);
+  const [selectedButton, setSelectedButton] = useState(0);
   return (
     <div className="flex flex-col  px-6 pt-4 pb-6 md:p-8 items-center md:max-w-[412px] max-w-[327px] h-[360px] md:h-[416px] bg-gradient-to-b from-gradient-1-from to-gradient-1-to rounded-3xl">
       <div className="flex justify-start w-full md:mb-8 mb-4">
